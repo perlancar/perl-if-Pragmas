@@ -1,5 +1,8 @@
 package if::prog;
 
+# DATE
+# VERSION
+
 sub work {
   my $method = shift() ? 'import' : 'unimport';
   die "Too few arguments to 'use if::prog'"
