@@ -21,7 +21,7 @@ sub import   { shift; unshift @_, 1; goto &work }
 sub unimport { shift; unshift @_, 0; goto &work }
 
 1;
-# ABSTRACT: C<use> a Perl module if program matches
+# ABSTRACT: C<use> a Perl module if program does not match
 
 =head1 SYNOPSIS
 
