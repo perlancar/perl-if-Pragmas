@@ -2,3 +2,4 @@ if-prog-*
 .build
 *~
 nytprof*
+.DS_Store
